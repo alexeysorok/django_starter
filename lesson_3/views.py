@@ -29,7 +29,11 @@ class MyView(View):
 
 
 def main(request):
-    test_template = loader.render_to_string("main.html")
+    # test_template = loader.render_to_string("main.html")
+    test_template = loader.render_to_string("template_example.html", context={
+        "str": "Test string",
+        "int": 100
+    })
 
     return HttpResponse(test_template)
 
