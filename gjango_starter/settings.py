@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'lesson_3',
     'lesson_5',
     'lesson_6',
+    'lesson_8',
 ]
 
 MIDDLEWARE = [
@@ -60,7 +61,7 @@ ROOT_URLCONF = 'gjango_starter.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
+        'DIRS': [BASE_DIR / 'templates', 'lesson_8']
         ,
         'APP_DIRS': True,
         'OPTIONS': {
