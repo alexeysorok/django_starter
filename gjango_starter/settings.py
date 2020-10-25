@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'durationwidget',
     'lesson_1',
     'lesson_2',
@@ -44,7 +45,13 @@ INSTALLED_APPS = [
     'lesson_5',
     'lesson_6',
     'lesson_8',
+    'lesson_9',
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 10
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
