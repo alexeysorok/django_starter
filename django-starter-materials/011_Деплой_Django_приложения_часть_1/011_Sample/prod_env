@@ -1,0 +1,6 @@
+export SECRET_KEY = 'nlria3o(m4^ga3nacwln!3g_#kyg%g3s83$+i8do%v%0qa+1y)'
+export DB_NAME = 'course'
+export DB_USER = 'itvdn'
+export DB_PASSWORD = 'itvdn'
+export DB_HOST = '127.0.0.1'
+export DB_PORT = 5432
